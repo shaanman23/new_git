@@ -44,10 +44,10 @@ pipeline {
             echo 'Pipeline job finished.'
         }
         failure {
-            echo '🔴 The Pipeline FAILED! Review the console output immediately.'
+            echo ' The Pipeline FAILED! Review the console output immediately.'
         }
         success {
-            echo '🟢 Pipeline successfully completed all stages.'
+            echo 'Pipeline successfully completed all stages.'
         }
     }
 }
